@@ -1,6 +1,10 @@
 // swift-tools-version:6.0
 import PackageDescription
 
+// Automatically updated by pipeline.
+let sdkUrl = ""
+let checksum = ""
+
 let package = Package(
     name: "ChargeNowSDK",
     platforms: [.iOS(.v16)],
@@ -10,7 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ChargeNowSDK",
-            path: "ChargeNowSDK.xcframework.zip"
+            url: sdkUrl,
+            checksum: checksum
         )
     ]
 )
