@@ -2,7 +2,7 @@
 import PackageDescription
 
 // Automatically updated by pipeline.
-let sdkUrl = ""
+let sdkUrl = "https://github.com/fuesev-dcs/dcs-sdk-temp/releases/download/v0.1.0/ChargeNowSDK.xcframework.zip"
 let checksum = ""
 
 let package = Package(
